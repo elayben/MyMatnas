@@ -71,7 +71,7 @@ The project is organized into several classes and activities to ensure modularit
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/elayben/MyMatnas.git
    ```
 
 2. Open the project in Android Studio.
@@ -90,7 +90,4 @@ The project is organized into several classes and activities to ensure modularit
 - Add multi-language support to cater to diverse users.
 - Enhance UI/UX for a more intuitive user experience.
 
----
 
-## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
