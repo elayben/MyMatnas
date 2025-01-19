@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|top"
+    android:foregroundGravity="center"
+    android:gravity="center|top"
+    android:background="#807B9CBA"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".WorkersActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/IBReturnFromWorkers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="העובדים"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="visible"
+            android:text="שם עובד: ישראל ישראלי \nמקצוע: מנהל     \nגיל: 36 \nטלפון: 0528550838  \nותק: 10\n"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="visible"
+            android:text="שם עובד: אלעוז כהן \nמקצוע: מזכיר     \nגיל: 23 \nטלפון: 0597430838  \nותק: 2\n"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="visible"
+            android:text="שם עובד: שימחה ריף \nמקצוע: מנקה     \nגיל: 29 \nטלפון: 0523980838  \nותק: 7\n"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="visible"
+            android:text="שם עובד: נועה שרלי \nמקצוע: מוציא לפועל     \nגיל: 32 \nטלפון: 0528392518  \nותק: 5\n"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|top"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:background="#807B9CBA"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".GymActivity">
+
+    <ImageButton
+        android:id="@+id/IBReturnFromLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="הספרייה"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:gravity="right"
+        android:text="הספרייה שלנו מציעה מגוון רחב של ספרים מכל הז'אנרים והשפות. הספרייה מהווה מקום שקט בו ניתן ללמוד ולקרוא ספרים בנחת ושקט. בספרייה ניתן למצוא פינות ישיבה, מחשבים, ומדפסת ובכך הופכת לאחת  הספריות הנחשבות בעיר."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/IVLibrary"
+        android:layout_width="351dp"
+        android:layout_height="229dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/bzlibrary" />
+
+</LinearLayout>

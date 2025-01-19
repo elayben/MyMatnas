@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|top"
+    android:background="#807496B5"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".GymActivity">
+
+    <ImageButton
+        android:id="@+id/IBReturnFromGym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="מכון הכושר "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/TVGym"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:gravity="right"
+        android:text="חדר הכושר שלנו משלב טכנולוגיה ברמה הגבוהה ביותר בעולם! המכשירים עברו בדיקת מכון רישוי ועמדו בתקן האירופאי למכשירי התעמלות.  על פי מחקרים מכון הכושר משפר את בריאות הנפש והגוף ותורם לאורח חיים בריא יותר. במכון ניתן למצואבנוסף : גומיות התנגדות, קופסאות קפיצה, מגבות, מלתחות ועוד..."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/IVGym"
+        android:layout_width="351dp"
+        android:layout_height="229dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/bzgym" />
+
+</LinearLayout>
